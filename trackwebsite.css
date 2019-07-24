@@ -1,0 +1,120 @@
+h1 {
+  color: Lime;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h2 {
+  color: purple;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h3 {
+  color: blue;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h4 {
+  color: green;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h5 {
+  color: yellow;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h6 {
+  color: red;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h9 {
+  color: coral;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h10 {
+  color: DarkOrange;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h8 {
+  color: orange;
+  font-size: 35px;
+  font-family: cursive;
+  }
+
+h7 {
+  color: black;
+  font-size: 27px;
+  font-family: fantasy;
+}
+
+h11 {
+  color: LightSalmon;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+h12 {
+  color: black;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #000;
+  color: white;
+  float: left;
+  border: 80%;
+  outline: 20%;
+  cursor: pointer;
+  padding: 25px 30px;
+  font-size: 17px;
+  width: 25%;
+
+  transition-duration: 1s;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 25px;
+  height: 100%;
+}
+
+#January {background-color: grey;}
+#February {background-color: grey;}
+#March {background-color: grey;}
+#April {background-color: grey;}
+#May {background-color: grey;}
+#June {background-color: grey;}
+#July {background-color: grey;}
+#August {background-color: grey;}
+#September {background-color: grey;}
+#October {background-color: grey;}
+#November {background-color: grey;}
+#Decemeber {background-color: grey;}

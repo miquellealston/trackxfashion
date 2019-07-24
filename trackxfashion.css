@@ -1,0 +1,298 @@
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  padding-right: 30px;
+  padding-left: 80px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tablinks {
+  background-color: #000;
+  color: white;
+  float: center;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  width: 19%;
+  cursor: pointer;
+  padding: 14px 16px;
+  /* padding-right: 30px;
+  padding-left: 100px; */
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tablinks:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tablinks.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontents {
+  display: none;
+  color: white;
+  tab-size: 44;
+  padding: 100px 20px;
+  height: 100%
+  /* border: 1px solid #ccc; */
+  /* border-top: none; */
+}
+
+h3 {
+ color: hotpink ;
+ font-size : 24px
+}
+
+body {
+  background-color: #281a41
+}
+#sydd {
+  height : 300px
+}
+#txf {
+   height: 100px;
+   width: 50%
+ }
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+ }
+
+ h1 {
+   color: Lime;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h2 {
+   color: purple;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h3 {
+   color: blue;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h4 {
+   color: green;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h5 {
+   color: yellow;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h6 {
+   color: red;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h9 {
+   color: coral;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h10 {
+   color: DarkOrange;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h8 {
+   color: orange;
+   font-size: 35px;
+   font-family: cursive;
+   }
+
+ h7 {
+   color: black;
+   font-size: 27px;
+   font-family: fantasy;
+ }
+
+ h11 {
+   color: LightSalmon;
+   font-size: 35px;
+   font-family: cursive;
+ }
+
+ h12 {
+   color: black;
+   font-size: 25px;
+   font-family: fantasy;
+ }
+
+ * {box-sizing: border-box}
+
+ /* Set height of body and the document to 100% */
+ body, html {
+   height: 100%;
+   margin: 0;
+   font-family: Arial;
+ }
+
+ /* Style tab links */
+ .tablink {
+   background-color: white;
+   color: white;
+   float: left;
+   border: 80%;
+   outline: 20%;
+   cursor: pointer;
+   padding: 25px 30px;
+   font-size: 17px;
+   width: 100%;
+
+   transition-duration: 1s;
+ }
+
+ .tablink:hover {
+   background-color: #777;
+ }
+
+ /* Style the tab content (and add height:100% for full page content) */
+ .tabcontent {
+   color: black;
+   display: none;
+   padding: 100px 25px;
+   height: 100%;
+ }
+
+ #January {background-color: #281a41;
+ width: 100%}
+ #February {background-color: #281a41;
+   width: 100%}
+ #March {background-color: #281a41;
+ width: 100%}
+ #April {background-color: #281a41;
+ width: 100%}
+ #May {background-color: #281a41;
+ width: 100%}
+ #June {background-color: #281a41;
+ width: 100%}
+ #July {background-color: #281a41;
+ width: 100%}
+ #August {background-color: #281a41;
+ width: 100%}
+ #September {background-color: #281a41;
+ width: 100%}
+ #October {background-color: #281a41;
+   width: 100%}
+ #November {background-color: #281a41;
+   width: 100%}
+ #Decemeber {background-color: #281a41;
+   width: 100%}
+
+ .dropbtn {
+   background-color: #000;
+   color: white;
+   /* padding: 13px; */
+   font-size: 16px;
+   border: none;
+ }
+
+ .dropdown {
+   position: relative;
+   display: inline;
+ }
+
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+
+ .dropdown-content button {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+
+ .dropdown-content button:hover {background-color: #ddd;}
+
+ .dropdown:hover .dropdown-content {display: block;}
+
+ .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#sydd {
+  height: 200px;
+  width: 200px;
+  float: center;
+}
+#nike {
+  height: 200px;
+  width: 200px;
+}
+
+
+.right {
+  float: right;
+  width: 300px;
+  border: 3px solid hotpink;
+  padding: 20px;
+}
+
+
+/* .rotateimg90 {
+  -webkit-transform:rotate(35deg);
+  -moz-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+  transform: rotate(35deg);
+} */
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
+  color: hotpink ;
+  font-size : 24px
+}
+strong {
+  color: peachpuff
+}
+img {
+  height : 300px
+}
+body {
+  background-color: black
+}
+.text {
+  color: white
+}
+#texxt {
+  display: none
+  color : white
+} */
