@@ -8,13 +8,13 @@
 
 /* Style the buttons that are used to open the tab content */
 .tablinks {
-  background-color: #000;
+  background-color: #DDA0DD;
   color: white;
   float: center;
   border: none;
   outline: none;
   font-size: 17px;
-  width: 19%;
+  width: 15%;
   cursor: pointer;
   padding: 14px 16px;
   /* padding-right: 30px;
@@ -24,12 +24,12 @@
 
 /* Change background color of buttons on hover */
 .tablinks:hover {
-  background-color: #ddd;
+  background-color: #DDA0DD;
 }
 
 /* Create an active/current tablink class */
 .tablinks.active {
-  background-color: #ccc;
+  background-color: #DDA0DD;
 }
 
 /* Style the tab content */
@@ -44,19 +44,102 @@
 }
 
 h3 {
- color: hotpink ;
+ color: white ;
  font-size : 24px
 }
 
 body {
-  background-color: #281a41
+  background-color: #DDA0DD
+}
+#testmodel2{
+  height: 995px;
+  width:645px;
+  margin-left:780px;
+  margin-top: -1000px;
+  margin-bottom: 260px;
 }
 #sydd {
   height : 300px
 }
 #txf {
-   height: 100px;
-   width: 50%
+   height: 200px;
+   width: 50%;
+   align: left;
+ }
+ #niket {
+   margin-left: -640px;
+   height: 300px;
+ }
+ #nikepinkbottoms {
+   margin-left: 40px;
+   height: 300px;
+   width:330px;
+ }
+ #fashionin{
+   height: 1000px;
+   width:800px;
+   margin-left: -20px;
+ }
+ #nikebottoms {
+   margin-left: 40px;
+   height: 300px;
+ }
+ #nikejacket {
+   margin-left: 40px;
+   height: 300px;
+ }
+ #nikebackpack {
+   height: 200px
+ }
+
+ #socks {
+  margin-top: 65px;
+  margin-left: 40px;
+  height: 300px;
+ }
+ #sleeve{
+   margin-top: 65px;
+   margin-left: 40px;
+   height: 300px;
+ }
+ #hat {
+   margin-top: 65px;
+   margin-left: -490px;
+   height: 300px
+ }
+ #florida {
+   margin-top: 65px;
+   margin-left: 40px;
+   height: 300px;
+ }
+ #ss1 {
+   height: 200px
+ }
+ #nb2 {
+   margin-left: -490px;
+   height: 300px;
+   width:315px;
+ }
+
+ #nb {
+   margin-top: 65px;
+   margin-left: 40px;
+   height: 300px;
+   width:315px;
+ }
+
+ #nikes {
+   margin-top: 65px;
+   margin-left: 40px;
+   height: 300px;
+   width:315px;
+ }
+
+ #nikes2 {
+   margin-top: 65px;
+   margin-left: 20px;
+   height: 300px;
+   width:315px;
  }
 
 .center {
@@ -67,75 +150,75 @@ body {
  }
 
  h1 {
-   color: Lime;
+   color: hotpink;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h2 {
    color: purple;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h3 {
    color: blue;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h4 {
    color: green;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h5 {
    color: yellow;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h6 {
    color: red;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h9 {
    color: coral;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h10 {
    color: DarkOrange;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h8 {
    color: orange;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
    }
 
  h7 {
    color: black;
-   font-size: 27px;
-   font-family: fantasy;
+   /* font-size: px; */
+   font-family: monospace;
  }
 
  h11 {
    color: LightSalmon;
    font-size: 35px;
-   font-family: cursive;
+   font-family: monospace;
  }
 
  h12 {
    color: black;
-   font-size: 25px;
-   font-family: fantasy;
+   /* font-size: 35px; */
+   font-family: monospace;
  }
 
  * {box-sizing: border-box}
@@ -152,8 +235,10 @@ body {
    background-color: white;
    color: white;
    float: left;
-   border: 80%;
-   outline: 20%;
+   border: none;
+   outline: none;
+   /* border: 80%;
+   outline: 20%; */
    cursor: pointer;
    padding: 25px 30px;
    font-size: 17px;
@@ -161,9 +246,8 @@ body {
 
    transition-duration: 1s;
  }
-
  .tablink:hover {
-   background-color: #777;
+   background-color: #DDA0DD;
  }
 
  /* Style the tab content (and add height:100% for full page content) */
@@ -174,33 +258,58 @@ body {
    height: 100%;
  }
 
- #January {background-color: #281a41;
- width: 100%}
- #February {background-color: #281a41;
-   width: 100%}
- #March {background-color: #281a41;
- width: 100%}
- #April {background-color: #281a41;
- width: 100%}
- #May {background-color: #281a41;
- width: 100%}
- #June {background-color: #281a41;
- width: 100%}
- #July {background-color: #281a41;
- width: 100%}
- #August {background-color: #281a41;
- width: 100%}
- #September {background-color: #281a41;
- width: 100%}
- #October {background-color: #281a41;
-   width: 100%}
- #November {background-color: #281a41;
-   width: 100%}
- #Decemeber {background-color: #281a41;
-   width: 100%}
+#January {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+/* font-size:30px} */
+#February {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#March {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#April {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#May {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#June {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#July {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#August {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#September {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#October {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#November {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
+#Decemeber {background-color: #DDA0DD;
+width: 100%;
+margin-top: -200px;
+}
 
  .dropbtn {
-   background-color: #000;
+   background-color: #DDA0DD;
    color: white;
    /* padding: 13px; */
    font-size: 16px;
@@ -215,9 +324,9 @@ body {
  .dropdown-content {
    display: none;
    position: absolute;
-   background-color: #f1f1f1;
+   background-color: #DDA0DD;
    min-width: 160px;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
    z-index: 1;
  }
 
@@ -228,20 +337,22 @@ body {
    display: block;
  }
 
- .dropdown-content button:hover {background-color: #ddd;}
+ .dropdown-content button:hover {background-color: white;}
 
  .dropdown:hover .dropdown-content {display: block;}
 
- .dropdown:hover .dropbtn {background-color: #3e8e41;}
+ .dropdown:hover .dropbtn {background-color: #DDA0DD;}
 
 #sydd {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   float: center;
+  border: 3px solid white;
+  padding: 10px;
 }
 #nike {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
 }
 
 
@@ -249,10 +360,135 @@ body {
   float: right;
   width: 300px;
   border: 3px solid hotpink;
-  padding: 20px;
+  padding: 10px;
+}
+.vm {
+  color: hotpink;
+  font-family: monospace;
+}
+.article{
+  font-size: 30px;
+  color: white;
+  font-family: monospace;
+}
+ .center {
+   width:400px;
+   height:400px;
+   align: top;
+ }
+#eric {
+   width:400px;
+   height:400px;
+   float: center;
+   border: 3px solid white;
+   padding: 10px;
+ }
+#video{
+   text-align: right;
+ }
+#youtube{
+   height: 400px;
+   width:400px;
+   /* border: 3px solid magenta; */
+   padding: 10px;
+   margin-left: 1000px;
+   margin-top: -1500px;
+   margin-bottom: 150px;
+ }
+
+#trackjo{
+  border-radius: 50%;
+}
+.tabcontented{
+  font-family: monospace;
+}
+#nr{
+  margin-top: -100px;
+  margin-left:340px;
+  font-size: 100px;
+}
+#Accessories{
+  margin-top: 200px;
+  margin-left:470px;
+  font-size: 40px;
+}
+#Shoes{
+  margin-top:200px;
+  margin-left:450px;
+  font-size: 40px;
+}
+#Fits{
+  margin-top:200px;
+  margin-left:610px;
+  font-size: 40px;
+}
+.parallax {
+
+  /* The image used */
+/* background-image: url("bea.gif"); */
+
+  /* Set a specific height */
+height: 300px;
+
+  /* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+margin-top: -100px;
+margin-left:-22px;
+margin-right:-22px;
 }
 
 
+/* .para{
+
+  background-image: url("nikemodels.jpg");
+  height: 300px;
+
+    Create the parallax scrolling effect
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top: -100px;
+  margin-left:-22px;
+  margin-right:-22px;
+} */
+#parallax{
+  background-image: url("bea.gif");
+}
+#para{
+  background-image: url("nikemodels.jpg");
+}
+.tabbed {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 100px;
+}
+.tabbed button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tabbedcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid white;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
 /* .rotateimg90 {
   -webkit-transform:rotate(35deg);
   -moz-transform: rotate(35deg);
@@ -261,12 +497,256 @@ body {
   transform: rotate(35deg);
 } */
 /*
+* {box-sizing:border-box}
 
+/* Slideshow container */
+.slideshow-container {
+  max-width: 200px;
+  max-height:10px;
+  position: relative;
+  margin-top: -1003px;
+  margin-left: 780px;
+}
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 0px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.testimage{
+  height: 1000px;
+  width: 641px;
+}
+#bio{
+  font-size: 50px;
+  align: right;
+}
+#sydneytitle{
+  font-size: 45px;
+}
+
+#winter1{
+  height: 500px;
+  width: 350px;
+}
+
+#winter2{
+  height: 500px;
+  width: 350px;
+}
+
+#winter3{
+  height: 500px;
+  width: 350px;
+}
+
+#hotgirl1{
+  height: 500px;
+  width: 350px;
+}
+
+#hotgirl2{
+  height: 500px;
+  width: 350px;
+}
+
+#hotgirl3{
+  height: 500px;
+  width: 350px;
+}
+#dec1{
+  height: 500px;
+  width: 350px;
+}
+#dec2{
+  height: 500px;
+  width: 350px;
+}
+#dec3{
+  height: 500px;
+  width: 350px;
+}
+
+#Feb1{
+  height: 500px;
+  width: 350px;
+}
+#Feb2{
+  height: 500px;
+  width: 350px;
+}
+#Feb3{
+  height: 500px;
+  width: 350px;
+}
+#mar1{
+  height: 500px;
+  width: 350px;
+}
+#mar2{
+  height: 500px;
+  width: 350px;
+}
+#mar3{
+  height: 500px;
+  width: 350px;
+}
+#sept2{
+  height: 500px;
+  width: 350px;
+}
+#sept3{
+  height: 500px;
+  width: 350px;
+}
+#august1{
+  height: 500px;
+  width: 350px;
+}
+#august2{
+  height: 500px;
+  width: 350px;
+}
+#august3{
+  height: 500px;
+  width: 350px;
+}
+#july1{
+  height: 500px;
+  width: 350px;
+}
+#july2{
+  height: 500px;
+  width: 350px;
+}
+#july3{
+  height: 500px;
+  width: 350px;
+}
+#may1{
+  height: 500px;
+  width: 350px;
+}
+#may2{
+  height: 500px;
+  width: 350px;
+}
+#may3{
+  height: 500px;
+  width: 350px;
+}
+#nov1{
+  height: 500px;
+  width: 350px;
+}
+#nov2{
+  height: 500px;
+  width: 350px;
+}
+#april1{
+  height: 500px;
+  width: 350px;
+}
+#april2{
+  height: 500px;
+  width: 350px;
+}
+#april3{
+  height: 500px;
+  width: 350px;
+}
+#oct1{
+  height: 500px;
+  width: 350px;
+}
+#oct2{
+  height: 500px;
+  width: 350px;
+}
+#oct3{
+  height: 500px;
+  width: 350px;
+}
+#nov1{
+  height: 500px;
+  width: 350px;
+}
+#nov2{
+  height: 500px;
+  width: 350px;
+}
+#nov3{
+  height: 500px;
+  width: 350px;
+}
+#bloop{
+
+}
+#favs {
+  font-size: 40px;
+}
+#sk{
+  font-size: 60px;
+  color: purple;
+}
 
 
 
